@@ -1,0 +1,252 @@
+/* Reiniciar márgenes y relleno para todos los elementos */ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Imagen de fondo para el cuerpo de las páginas */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/tu-imagen-fondo.jpg'); /* Ruta de tu imagen */
+    background-size: cover; /* Escala la imagen para que cubra toda la página */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* No repetir la imagen */
+    background-attachment: fixed; /* Mantiene el fondo fijo al hacer scroll */
+}
+
+/* Contenedor principal de la aplicación */
+.container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Contenedor del logo, título y botones */
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+/* Estilos del logo */
+#logo {
+    width: 100px;
+    height: auto;
+}
+
+/* Título del chatbot */
+#title-container {
+    display: flex;
+    flex-direction: column; /* Alineación vertical del título y botones */
+    text-align: right; /* Alineación del título a la derecha */
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 5px; /* Margen entre el título y los botones */
+}
+
+/* Botones alineados a la derecha debajo del título */
+#chat-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+/* Botón "Nuevo Chat" */
+#new-chat-button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#new-chat-button:hover {
+    background-color: #0056b3;
+}
+
+/* Botón "Ver Historial" */
+#view-history-button {
+    padding: 10px 15px;
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#view-history-button:hover {
+    background-color: #5a6268;
+}
+
+/* Estilos del historial del chat */
+#chat-history {
+    width: 100%;
+    height: 400px;
+    background-color: #eaeaea;
+    border-radius: 5px;
+    padding: 15px;
+    overflow-y: auto;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Espacio entre los mensajes de chat */
+}
+
+/* Cada mensaje de chat */
+#chat-history div {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Update the input and buttons inside the chat-input */
+.chat-input {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; /* Add spacing between the input and the buttons */
+    align-items: center;
+}
+
+#user-input {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#send-button, #record-button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#send-button:hover {
+    background-color: #218838;
+}
+
+#record-button {
+    background-color: #007bff;
+    color: white;
+}
+
+#record-button:hover {
+    background-color: #0056b3;
+}
+
+.fas.fa-microphone {
+    font-size: 18px; /* Adjust the size of the microphone icon */
+}
+
+/* Estilos para la página de login */
+.login-container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+.login-container button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #0056b3;
+}
+
+.audio-controls {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#audio-controls button {
+    padding: 10px 15px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#audio-controls button:hover {
+    background-color: #c82333;
+}
+
+/* Estilos adicionales para el texto ordenado */
+.text-box {
+    position: absolute;
+    top: 60%; /* Ajusta la posición vertical */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 350px; /* Ajusta el ancho según sea necesario */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Sombra para un mejor estilo */
+}
+
+.text-box ul {
+    list-style-type: none; /* Sin viñetas */
+    padding: 0;
+}
+
+.text-box li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center; /* Alinea verticalmente el icono con el texto */
+}
+
+.text-box a {
+    color: #1DA1F2; /* Color de los enlaces (azul) */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.text-box a:hover {
+    text-decoration: underline;
+}
+
+.text-box i {
+    margin-right: 8px; /* Espacio entre el icono y el texto */
+    font-size: 18px; /* Tamaño del icono */
+    color: #0077b5; /* Color típico de LinkedIn */
+}
+
+.text-box p {
+    margin-bottom: 20px; /* Aumenta el espacio entre el párrafo y los nombres */
+}

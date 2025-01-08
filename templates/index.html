@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot UTEM</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- FontAwesome for icons -->
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+    <script src="{{ url_for('static', filename='audio.js') }}"></script> <!-- Asegúrate de incluir audio.js aquí -->
+</head>
+<body>
+    <div class="container">
+        <!-- Encabezado con logo, título y botones -->
+        <div id="header">
+            <img src="static/images/WhatsApp Image 2024-04-24 at 8.09.22 PM.jpeg" alt="Logo UTEM" id="logo">
+            <div id="title-container">
+                <h2>Chatbot UTEM</h2>  <!-- Título separado arriba de los botones -->
+                <div id="chat-actions">
+                    <button id="new-chat-button">Nuevo Chat</button>
+                    <button id="view-history-button">Ver Historial</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="chat-history">
+            <!-- Aquí se mostrará el historial de conversación -->
+        </div>
+
+        <div class="chat-input">
+            <input type="text" id="user-input" placeholder="Escribe tu pregunta...">
+            <button id="record-button"><i class="fas fa-microphone"></i></button> <!-- Micrófono como icono -->
+            <button id="send-button">Enviar</button>
+        </div>
+    </div>
+
+    <script src="static/app.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!-- FontAwesome CDN -->
+    <script src="{{ url_for('static', filename='recorder.js') }}"></script>
+</body>
+</html>

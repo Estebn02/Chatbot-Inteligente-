@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión - Chatbot UTEM</title>
+    <link rel="stylesheet" href="static/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Iniciar Sesión</h2>
+        {% if error %}
+        <p style="color: red;">{{ error }}</p>
+        {% endif %}
+        <form method="POST" action="/login">
+            <input type="email" name="email" placeholder="Correo institucional" required>
+            <button type="submit">Iniciar Sesión</button>
+        </form>
+    </div>
+    <div class="text-box">
+        <p>Soy el bot de la UTEM. Mi nombre es <strong>Utemcito</strong> y estoy hecho por alumnos de la universidad:</p>
+        <ul>
+            <li>
+                <a href="https://www.linkedin.com/in/esteban-alejandro-g%C3%B3mez-ter%C3%A1n-01b46226a/" target="_blank">
+                    <i class="fab fa-linkedin"></i> Esteban Gómez
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/fernanda-constanza-bravo-cornejo/" target="_blank">
+                    <i class="fab fa-linkedin"></i> Fernanda Bravo
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/bel%C3%A9n-d%C3%ADaz-d%C3%ADaz-595582308/" target="_blank">
+                    <i class="fab fa-linkedin"></i> Belén Díaz
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/rodrigo-reyes-358324198/" target="_blank">
+                    <i class="fab fa-linkedin"></i> Rodrigo Reyes
+                </a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
