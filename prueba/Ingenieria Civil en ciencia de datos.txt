@@ -1,0 +1,51 @@
+Título:
+Ingeniería Civil en Ciencia de Datos - Universidad Tecnológica Metropolitana (UTEM)
+
+Resumen General:
+La carrera de Ingeniería Civil en Ciencia de Datos de la UTEM se enfoca en formar profesionales con sólidas capacidades en ingeniería computacional y gestión de datos, preparados para contribuir al desarrollo sustentable del país. El programa, que otorga el título de Ingeniero/a Civil en Ciencia de Datos y el grado de Licenciado/a en Ciencias de la Ingeniería, tiene una duración de 11 semestres en modalidad diurna y se imparte en el Campus Macul. A través de un enfoque práctico y teórico, los estudiantes adquieren habilidades en big data, inteligencia de negocios, y desarrollo de proyectos tecnológicos avanzados.
+
+Resumen por Secciones:
+
+Información General:
+
+Título Profesional: Ingeniero/a Civil en Ciencia de Datos
+Grado Académico: Licenciado/a en Ciencias de la Ingeniería
+Duración: 11 semestres (5.5 años)
+Horario: Diurno
+Ubicación: Campus Macul, Av. José Pedro Alessandri 1242, Ñuñoa
+Código DEMRE: 21049
+Certificación: No certificable hasta que egresen estudiantes de la primera cohorte​.
+Requisitos de Admisión 2024:
+
+Ponderaciones:
+NEM: 10%
+Ranking: 25%
+Prueba de Comprensión Lectora: 20%
+Matemáticas (M1): 30%
+Prueba Electiva de Ciencias o Historia: 10%
+Matemáticas (M2): 5%
+Puntajes mínimos:
+Puntaje promedio mínimo en Comprensión Lectora y Matemáticas: 458 puntos.
+Vacantes: 30
+Arancel 2024:
+Matrícula de la carrera: $90,000 CLP
+Arancel anual: $4,400,000 CLP​.
+Perfil de Egreso:
+
+Los egresados estarán capacitados para aplicar el conocimiento científico y tecnológico en diversas áreas como comercial, industrial y académico. Su formación en ciencia de datos incluye competencias en inteligencia de negocios, consultoría en sistemas big data, y desarrollo de proyectos de innovación tecnológica. Estos profesionales pueden desempeñarse en roles de liderazgo en gestión de datos, como ingenieros de datos o en consultoría tecnológica.
+Campo Ocupacional: Los egresados pueden trabajar en instituciones académicas y en sectores empresariales en posiciones como director de proyectos de ingeniería de datos, consultor de sistemas en ambientes big data, planificador de sistemas computacionales, y desarrollador de software orientado a datos masivos​.
+Malla Curricular:
+
+1° Año:
+Primer semestre: Introducción a la Ingeniería de Datos, Computación Aplicada, Algoritmos, y Química General.
+Segundo semestre: Ciencias de los Materiales, Cálculo Diferencial, y Mecánica Clásica.
+2° Año:
+Incluye cursos en Teoría de Sistemas, Electromagnetismo, Estructuras de Datos y Estadística.
+3° Año:
+Se introduce el Procesamiento Digital de la Información y lenguajes de programación.
+4° Año:
+Los estudiantes estudian Visualización de Datos, Machine Learning, Redes y Comunicación de Datos, y realizan una Práctica Intermedia.
+5° Año:
+Cursos avanzados como Deep Learning, Procesamiento de Lenguaje Natural, y Evaluación de Proyectos Informáticos.
+6° Año:
+Incluye el Trabajo de Título II y una Práctica Profesional.
